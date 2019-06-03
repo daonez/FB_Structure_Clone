@@ -1,0 +1,80 @@
+.stories_box {
+  background: $white;
+  box-shadow: 0px 0px 0px 1px $borderColor;
+  border-radius: $radius;
+  padding: 12px;
+  margin-bottom: 12px;
+
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    h4 {
+      font-size: 14px;
+      color: $darkGrey;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  a {
+    color: $blue;
+    text-decoration: none;
+    font-size: 13px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &_body {
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      margin-bottom: 10px;
+      > div:nth-of-type(1) {
+        width: 22%;
+
+        div {
+          border-radius: 40px;
+          overflow: hidden;
+          border: 2px solid lighten($blue, 8%);
+        }
+      }
+      > div:nth-of-type(2) {
+        width: 73%;
+        padding-left: 12px;
+        display: flex;
+        align-items: center;
+
+        span {
+          display: block;
+          color: $darkGrey;
+          font-size: 13px;
+        }
+      }
+      //This is the Story add(+) section code
+      &:nth-of-type(1) > div:nth-of-type(1) {
+        div {
+          text-align: center;
+          border: none;
+          box-shadow: 0px 0px 0px 1px $borderColor;
+          background: $grey;
+          color: lighten($blue, 8%);
+        }
+        i {
+          padding: 20.5px 0px;
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 2px;
+      border-radius: 40px;
+    }
+  }
+}

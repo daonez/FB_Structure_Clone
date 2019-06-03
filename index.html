@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset "UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initital scale =1, shrink-to-fit = no"
+    />
+    <title>Cloning Facebook</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://kit.fontawesome.com/e48956d39c.js"></script>
+  </head>
+  <body>
+    <nav class="mobile">
+      <nav class="mobile_container">
+        <div class="active">
+          <i class="fas fa-newspaper"></i>
+        </div>
+        <div>
+          <i class="fas fa-user-friends"></i>
+        </div>
+        <div>
+          <i class="fab fa-facebook-messenger"></i>
+        </div>
+        <div>
+          <i class="fas fa-bell"></i>
+        </div>
+        <div>
+          <i class="fas fa-search"></i>
+        </div>
+        <div>
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </nav>
+    <nav class="desktop">
+      <div class="container">
+        <div class="flex justify-content-between">
+          <div class="flex">
+            <div class="nav_logo">
+              <!-- Main Log -->
+              <i class="fab fa-facebook-square"></i>
+            </div>
+            <div class="nav_search">
+              <!-- Search -->
+              <input type="text" placeholder="Search" />
+            </div>
+          </div>
+          <div class="flex">
+            <div class="nav_links">
+              <!-- Link -->
+              <div>
+                <p>Profile Name</p>
+              </div>
+              <p>Home</p>
+              <p>Create</p>
+            </div>
+            <div class="nav_icons">
+              <!-- Main Icons -->
+              <i class="fas fa-user-friends"></i>
+              <i class="fab fa-facebook-messenger"></i>
+              <i class="fas fa-bell"></i>
+            </div>
+            <div class="nav_misc">
+              <!-- Help and other stuff -->
+              <i class="fas fa-question-circle"></i>
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="container">
+        <div class="flex justify-content-between">
+          <div class="sidebar">
+            <ul class="sidebar-user">
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>Name</span>
+              </li>
+            </ul>
+            <ul class="sidebar-main">
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>News Feed</span>
+              </li>
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>Messenger</span>
+              </li>
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>Watch</span>
+              </li>
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>MarketPlace</span>
+              </li>
+            </ul>
+
+            <ul class="sidebar-shortcuts">
+              <label><span>Shortcuts</span></label>
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>1</span>
+              </li>
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>2</span>
+              </li>
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>3</span>
+              </li>
+            </ul>
+            <ul class="sidebar-explore">
+              <label><span>Explore</span></label>
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>1</span>
+              </li>
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>2</span>
+              </li>
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>3</span>
+              </li>
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>4</span>
+              </li>
+              <li>
+                <img src="http://placehold.it/40x40" alt="" />
+                <span>5</span>
+              </li>
+            </ul>
+          </div>
+          <div class="newsfeed">
+            <div class="create-post">
+              <div class="create-post_header">
+                <h4><strong>Create Post</strong></h4>
+              </div>
+              <div class="create-post_body">
+                <div class="create-post_body-pic">
+                  <img src="http://placehold.it/80x80" alt="" />
+                </div>
+                <div class="create-post_body-content">
+                  <textarea placeholder="What's on your mind?"></textarea>
+                </div>
+                <div class="create-post_body-upload">
+                  <button>
+                    <i
+                      class="far fa-images"
+                      aria-hidden="true"
+                      style="
+                      
+                  "
+                    ></i>
+                    <span>Photo</span>
+                  </button>
+                </div>
+              </div>
+              <div class="create-post_footer">
+                <button>
+                  <img src="http://placehold.it/80x80" alt="" />
+                  <span>Photo/Video</span>
+                </button>
+                <button>
+                  <img src="http://placehold.it/80x80" alt="" />
+                  <span>Tag Friends</span>
+                </button>
+                <button>
+                  <img src="http://placehold.it/80x80" alt="" />
+                  <span>Feeling/Activity</span>
+                </button>
+                <button>
+                  <i class="fas fa-ellipsis-h"></i>
+                </button>
+              </div>
+            </div>
+            <div class="created_post">
+              <div class="created_post_header">
+                <div>
+                  <img src="http://placehold.it/80x80" alt="" />
+                </div>
+                <div>
+                  <h4><a href="#">Cool Cats</a></h4>
+                  <span>X hrs</span>
+                  <span>·</span>
+                  <span><i class="fas fa-globe-americas"></i></span>
+                </div>
+              </div>
+              <div class="created_post_body">
+                <div class="created_post_body-content">
+                  <p>
+                    What this cat looking at!
+                  </p>
+                  <p>
+                    Go to Google to know the answer:
+                    <a
+                      href="https://www.google.com/search?q=cats&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjsnJTDhcviAhXbFIgKHYOoD2QQ_AUIECgB&biw=1920&bih=946"
+                      >Go to Google</a
+                    >
+                  </p>
+                </div>
+                <div class="created_post_body_media">
+                  <img src="https://placekitten.com/800/850" alt="" />
+                </div>
+              </div>
+
+              <div class="created_post_footer">
+                <div class="created_post_footer_like_comments_results">
+                  <div>
+                    <span data-reaction="like">
+                      <i class="fas fa-thumbs-up"></i>
+                    </span>
+                    <span data-reaction="love">
+                      <i class="fas fa-heart"></i>
+                    </span>
+                    <span data-reaction="wow">
+                      <i class="far fa-surprise"></i>
+                    </span>
+                    <span>5.5K</span>
+                  </div>
+                  <div>
+                    <span>203 Comments</span>
+                    <span>1.5K Shares</span>
+                  </div>
+                </div>
+                <div>
+                  <div class="created_post_footer_input">
+                    <div>
+                      <i class="far fa-thumbs-up"></i>
+                      <span>Like</span>
+                    </div>
+                    <div>
+                      <i class="far fa-comment-alt"></i>
+                      <span>Comment</span>
+                    </div>
+                    <div>
+                      <i class="far fa-share-square"></i>
+                      <span>Share</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="created_post">
+              <div class="created_post_header">
+                <div>
+                  <img src="http://placehold.it/80x80" alt="" />
+                </div>
+                <div>
+                  <h4><a href="#">Pokémon FanBoyz</a></h4>
+                  <span>X hrs</span>
+                  <span>·</span>
+                  <span><i class="fas fa-globe-americas"></i></span>
+                </div>
+              </div>
+              <div class="created_post_body">
+                <div class="created_post_body-content">
+                  <p>
+                    Pokémon Gotta Catch 'Em All
+                  </p>
+                  <p>
+                    <a href="https://www.youtube.com/watch?v=SVp-zIONsrs">
+                      Check out my Youtube</a
+                    >
+                  </p>
+                </div>
+                <div class="created_post_body_media">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/SVp-zIONsrs"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+
+              <div class="created_post_footer">
+                <div class="created_post_footer_like_comments_results">
+                  <div>
+                    <span data-reaction="like">
+                      <i class="fas fa-thumbs-up"></i>
+                    </span>
+                    <span data-reaction="love">
+                      <i class="fas fa-heart"></i>
+                    </span>
+                    <span data-reaction="wow">
+                      <i class="far fa-smile"></i>
+                    </span>
+                    <span>6.5K</span>
+                  </div>
+                  <div>
+                    <span>3.5K Comments</span>
+                    <span>2K Shares</span>
+                  </div>
+                </div>
+                <div>
+                  <div class="created_post_footer_input">
+                    <div>
+                      <i class="far fa-thumbs-up"></i>
+                      <span>Like</span>
+                    </div>
+                    <div>
+                      <i class="far fa-comment-alt"></i>
+                      <span>Comment</span>
+                    </div>
+                    <div>
+                      <i class="far fa-share-square"></i>
+                      <span>Share</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="misc">
+            <div class="stories_box">
+              <div class="stories_box_header">
+                <div>
+                  <h4><strong>Stories</strong></h4>
+                </div>
+                <div>
+                  <a href="#"><i class="fas fa-history"></i> Archive</a>
+                  <span>·</span>
+                  <a href="#">Settings</a>
+                </div>
+              </div>
+              <div class="stories_box_body">
+                <ul>
+                  <li>
+                    <div>
+                      <div>
+                        <i class="fas fa-plus"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        <a href="#">Add to your story</a>
+                        <span>How's your kitten?</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <div>
+                        <img src="http://placekitten.com/g/150/150" alt="" />
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        <a href="#">Name of person</a>
+                        <span>xx time ago</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <div>
+                        <img src="http://placekitten.com/g/120/120" alt="" />
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        <a href="#">Name of person</a>
+                        <span>xx time ago</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <div>
+                        <img src="http://placekitten.com/g/180/180" alt="" />
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        <a href="#">Name of person</a>
+                        <span>xx time ago</span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div>
+                  <a href="#"
+                    ><strong
+                      ><i class="fas fa-caret-down"></i> See more</strong
+                    ></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="event_box">
+              <div>
+                <img src="http://www.placehold.it/40x40" />
+                <span>
+                  <a href="#"> Birthday</a>
+                  and
+                  <a href="#"> 50 others</a>
+                </span>
+              </div>
+              <div>
+                <img src="http://www.placehold.it/40x40" />
+                <span>
+                  <a href="#">3 event invites</a>
+                </span>
+              </div>
+            </div>
+            <div class="language_box">
+              <div>
+                <a href="#" class="active">한국어 </a>
+                <a href="#">English (US)</a>
+                <a href="#">中文(简体)</a>
+                <a href="#"> Español</a>
+                <a href="#">Português (Brasil)</a>
+              </div>
+              <div>
+                <button><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional Javascript -->
+  </body>
+</html>

@@ -1,0 +1,30 @@
+.event_box {
+  background-color: $white;
+  border-radius: $radius;
+  box-shadow: 0px 0px 0px 1px $borderColor;
+  padding: 12px;
+  margin-bottom: 12px;
+  div {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    &:hover {
+      background: lighten($grey, 4%);
+    }
+  }
+  img {
+    width: 20px;
+    height: 100%;
+  }
+  span {
+    margin-left: 6px;
+    font-size: 13px;
+  }
+  a {
+    text-decoration: none;
+
+    &:nth-of-type(1) {
+      font-weight: $bold;
+    }
+  }
+}

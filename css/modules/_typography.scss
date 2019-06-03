@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+$bodyFont: "Roboto", sans-serif;
+
+$normal: 400;
+$bold: 700;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  font-family: $bodyFont;
+  font-weight: $normal;
+  margin: 0;
+}

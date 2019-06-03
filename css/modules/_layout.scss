@@ -1,0 +1,62 @@
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  background: $backgroundColor;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  > div {
+    @include tablet {
+      padding: 0 8px;
+    }
+  }
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.wrapper {
+  padding: 0 0 12px;
+  @include tablet {
+    padding: 68px 0 12px;
+  }
+
+  .sidebar {
+    width: 18%;
+    display: none;
+
+    @include tablet {
+      display: block;
+    }
+  }
+  .newsfeed {
+    width: 100%;
+
+    @include tablet {
+      width: 52%;
+    }
+  }
+  .misc {
+    width: 30%;
+    display: none;
+
+    @include tablet {
+      display: block;
+    }
+  }
+}
