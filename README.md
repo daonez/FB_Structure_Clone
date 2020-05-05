@@ -2,26 +2,18 @@
 
 "My first ever coding project."
 
----
-
 ## Why I did this project:
 
 **_" To practice and make something "_**
 
----
-
 **created on:** 2019 May
 **days**: 1.5 days
-
----
 
 ## Skills:
 
 - Sass
 - Css
 - html
-
----
 
 ## Demo:
 
